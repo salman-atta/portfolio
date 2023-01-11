@@ -1,0 +1,308 @@
+body {
+  background-color: #FFFCF4;
+}
+html{
+  font-size: 62.5%
+}
+@media (max-width:998px) {
+  html{
+    font-size: 55%;
+  }
+}
+@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*NAVBAR*/
+.navbar {
+  position: fixed;
+  width: 100vw;
+  background-color: #021239;
+  z-index: 1;
+  height: 10rem;
+}
+
+.navbar-brand {
+  padding: 2rem 5rem 0;
+  height: 9rem;
+}
+
+img {
+  height: 9rem;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.nav-item {
+  padding: 0 1.5rem 0;
+}
+
+.navbar-toggler {
+  border: 1rem solid black;
+  background-color: white;
+}
+
+.nav-link:hover {
+  color: #E8531F;
+}
+
+.navbar-collapse {
+  background-color: #021239;
+}
+.btn1{
+  font-size: 1.5rem;
+  width: 12rem;
+  padding: 5px 8px;
+}
+
+/*Home-section*/
+.carouselimg{
+  background-image: url("banner-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 85rem;
+  background-repeat: no-repeat;
+  padding-bottom: 10rem;
+  position: relative;
+}
+#carouselslides{
+  position: absolute;
+  top: 25rem;
+  left: 15rem;
+}
+.heading1 {
+  font-size: 6rem;
+  color: white;
+}
+
+.btn2 {
+  width: 15rem;
+  background-color: #021239;
+  color: white;
+  margin-right:1rem;
+  font-size: 1.8rem;
+
+}
+
+.btn3 {
+  width: 15rem;
+  border: solid;
+  border-color: #021239;
+  font-size: 1.8rem;
+  padding: 1.8px 10px;
+}
+
+.btn2:hover {
+  background-color: #E8531F;
+}
+
+.btn3:hover {
+  background-color: #021239;
+  color: white;
+}
+
+/*ABOUT SECTION*/
+.column{
+  height: 50rem;
+}
+.abouttext {
+  margin: 6rem 5rem;
+}
+.aboutheading {
+  font-size: 5rem;
+  padding: 5rem 0;
+}
+.aboutpara {
+  font-size: 1.8rem;
+}
+.aboutlayer {
+  background-color: #eae8e8;
+  width: 50rem;
+  height: 45rem;
+  border-radius: 50%;
+  float: right;
+  opacity: 0.80;
+}
+@media(max-width:998px){
+  .aboutlayer{
+    margin: 0 100px 0;
+    float: none;
+  }
+}
+.aboutimg {
+  height: 40rem;
+  width: 50rem;
+  position: absolute;
+  top: 90rem;
+  right: 5rem;
+}
+@media(max-width:998px) {
+  .aboutimg{
+    top: 140rem;
+    left:15rem;
+  }
+
+}
+.btn4 {
+  background-color: #E8531F;
+  margin-top: 4rem;
+  font-size: 1.8rem;
+}
+
+.btn4:hover {
+  background-color: #021239;
+  color: white;
+}
+
+/*SERVICE SECTION*/
+.row1col1{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.row1para{
+  font-size: 1.8rem;
+}
+.row1head{
+  font-size: 4rem;
+}
+.col2{
+  background-color: #fff;
+}
+.col3{
+  background-color: #fff;
+}
+.leftdiv{
+  height:20rem;
+}
+.leftimg{
+  height: 100%;
+  width:100%;
+}
+.leftupper{
+  height: 50%;
+  width: 80%;
+  padding: 4rem 0 0 1rem ;
+}
+.head5{
+font-size: 2rem;
+display: inline;
+}
+.divicon{
+  height: 100%;
+}
+.leftlower{
+  height: 50%;
+}
+.leftpara{
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+@media (max-width:992px) {
+  .col2{
+  margin: 0 0 30px 0;
+  }
+}
+.btn5{
+width:10rem;
+margin-left: 24rem;
+font-size: 1.5rem;
+}
+.btn7{
+  width: 10rem;
+  margin-left: 2.6rem;
+  font-size: 1.5rem;
+
+}
+/*PROJECTS*/
+.container{
+  text-align: center;
+}
+.projecthead{
+  font-size: 5rem;
+  margin: 5rem 0;
+}
+.projectlist{
+  display: inline;
+  font-size: 2rem;
+  margin: 2rem 2rem;
+  text-decoration: none;
+}
+.btn6{
+  font-size: 1.8rem;
+  border: 1px solid black;
+}
+.btn6:hover{
+  background-color: #E8531F;
+color: white;
+}
+@media(max-width:700px){
+  .btn6{
+    display: block;
+  }
+}
+a:hover{
+  color: white;
+}
+.col4{
+  height: 100%;
+  width: 100%;
+}
+.container-fluid{
+  padding-top: 5rem;
+}
+/*contact section*/
+.contact{
+  font-size: 5rem;
+  text-align: center;
+}
+.contactheading{
+  margin-top: 6rem;
+}
+.conhead{
+font-size: 5rem;
+display: inline;
+
+}
+.centerdiv{
+  width: 50%;
+  margin-left: 25%;
+}
+.contactform{
+  height: 6rem;
+  font-size: 2rem;
+  margin: 2rem;
+}
+.btn8{
+  font-size: 2rem;
+  background-color: #021239;
+  color: white;
+}
+.btn8:hover{
+  background-color: #E8531F;
+}
+.footor{
+  background-image: linear-gradient(90deg, red 5%,#021239 30%);
+  width: 100%;
+  height: 20rem;
+  border: 1px solid;
+  padding: 7rem 5rem;
+}
+.maindiv{
+  margin: 0 3rem;
+}
+.footorspan{
+  font-size: 2rem;
+  color: white;
+}
+.footorimg{
+  height: 80%;
+}
